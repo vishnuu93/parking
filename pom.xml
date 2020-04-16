@@ -209,6 +209,17 @@
                     </dependency>
 
                 </dependencies>
+                     <distributionManagement>
+                              <repository>
+                                       <id>nexus</id>
+                                       <name>Parking Repository Releases</name>
+                                       <url>http://35.154.111.224:8081/repository/flipkart-releases/</url>
+                              </repository>
+                              <snapshotRepository>
+                                       <id>nexus</id>
+                                       <name>Parking Repository Snapshot</name>
+                                       <url>http://35.154.111.224:8081/repository/flipkart-snapshot/</url>
+                              </snapshotRepository>
 
                 <configuration>
 
